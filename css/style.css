@@ -49,12 +49,14 @@ textarea:focus, input:focus {outline: none;}
 @media (min-width: 1200px) {.contain {width: 1170px;}} */
 
 /*========== Main ==========*/
-.main {padding: 25px 0;}
+.main {
+  padding: 25px 0;
+}
 .card {
   background-color: #f9f9f9;
   padding: 20px;
   border-radius: 5px;
-  box-shadow: 1px 1px 5px 0 #ccc;
+  box-shadow: 0 0 5px 0 #ccc;
 }
 .card .header {
   display: flex;
@@ -88,6 +90,7 @@ textarea:focus, input:focus {outline: none;}
   width: 100%;
   border: 2px solid var(--main-color);
   border-radius: 5px;
+  background-color: #eee;
 }
 .card .installs h3 {
   text-transform: capitalize;
